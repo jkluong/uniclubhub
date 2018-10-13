@@ -60,7 +60,7 @@ header a:hover {
   width: 48%;
   text-align: center;
 }
-section h2 {
+#mainFront h2 {
   color: white;
 }
 #upcoming {
@@ -90,4 +90,50 @@ li {
 }
 #mainListing {
   margin:15px;
+}
+
+.clubPageBody {
+  margin:10px;
+  background-color: white;
+}
+.clubName {
+  border:2px solid black;
+  text-align:center;
+  margin-bottom:5px;
+  font-size:24px;
+}
+.clubDescription{
+  float:left;
+  width:47%;
+  border:2px solid black;
+  margin-bottom:5px;
+}
+.clubDescription h2{
+  text-align:center;
+}
+.clubDescription p {
+  margin: 15px;
+}
+.indieEvents {
+  float:right;
+  width:50%;
+  border:2px solid black;
+  min-height: 200px;
+}
+.indieEvents h2 {
+  text-align:center;
+}
+.contactinfo{
+  float:left;
+  width:47%;
+  margin:0;
+  margin-bottom:2px;
+  border:2px solid black;
+}
+.contactinfo h2 {
+  text-align:center;
+  margin: 5px;
+}
+.contactinfo p {
+  margin: 15px;
 }
